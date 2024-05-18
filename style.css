@@ -41,15 +41,40 @@ body{
     border-radius: 5px;
     font-size: small;
 }
-.form-div{
-    width: 90%;
+.mid-div{
+    /* display: grid;
+    grid-template-columns: repeat(5 , 1fr); */
+   gap: 30px;
+    width: 95%;
     height: 120px;
     display: flex;
     justify-content: center;
     border-radius: 10px;
     background-color: #caf3af;
-    margin: 20px auto;
+    margin: 0 auto;
+    align-items: center;
 }
-.btn3{
-    padding: ;
+.form-class{
+    border-radius: 20px;
+    display: inline-block;
+    padding-top: 30px;
+   
+}
+.input-div{
+    background-color: #2c2323;
+    color: white;
+    border-radius: 5px;
+}
+.btn-primary{
+   width: 200px;
+}
+#carouselExampleIndicators{
+   padding-left: 30px;
+   padding-right: 30px;
+   border-radius: 30px;
+    
+}
+.head-div{
+    align-items: center;
+    display: flex;
 }
